@@ -1,0 +1,259 @@
+.navbar {
+  margin-top: 5%;
+  width: 100%;
+}
+.navbar > ul {
+  display: flex;
+  list-style: none;
+  
+}
+.navbar > ul > li {
+  margin-left: 5%;
+  font-size: 2vh;
+}
+#contact {
+  position: relative;
+  right: 20px;
+}
+.green {
+  width: 45vh;
+  height: 75vh;
+  background-color: rgb(164, 214, 47);
+  position: relative;
+  z-index: -1;
+  right: 5%;
+  bottom: 10vh;
+}
+
+.firstContainer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 45vh;
+}
+.detailsFirst {
+  width: 70vh;
+  height: auto;
+}
+.detailsFirst > span:nth-child(1) {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.img1 > img {
+  width: 65%;
+  height: 100%;
+  position: relative;
+bottom: 2vh;
+}
+.detailsFirst > p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.detailsFirst > button {
+  background-color: rgb(164, 214, 47);
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+.secondContainer {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  bottom: 25vh;
+}
+.detailsSecond > img {
+  width: 30vh;
+  height: 25vh;
+
+  position: relative;
+  z-index: -1;
+}
+.detailsSecond > span {
+  font-size: 9vh;
+  position: relative;
+  bottom: 25vh;
+  left: 8vh;
+  font-weight: 900;
+}
+.deatilsThird {
+  margin-left: 40vh;
+  width: 80vh;
+  height: 40vh;
+}
+.deatilsThird > span:nth-child(1),
+#first-child {
+  color: rgb(164, 214, 47);
+  font-weight: 700;
+  font-size: large;
+  font-family: Arial, sans-serif;
+}
+#second-child {
+  color: rgb(7, 7, 7);
+  font-weight: 700;
+  position: relative;
+  top: 5px;
+}
+.detail {
+  position: relative;
+ width: 80vh;
+  height: auto;
+  margin-top: 10vh;
+
+  display: flex;
+  position: relative;
+  bottom: 45vh;
+
+  flex-direction: column;
+   position: relative;
+   left: 50vh;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.detail>span{
+  font-size: 7vh;
+ font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4vh;
+
+}
+.thirdContainer {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  bottom: 38vh;
+ 
+}
+.green-box {
+  width: 3vh;
+  height: 5vh;
+  background-color: rgb(164, 214, 47);
+  position: relative;
+  top: 3vh;
+  left: 0px;
+}
+.images {
+  width: 25vh;
+  margin: 0vh 15vh 2vh 20vh;
+  display: flex;
+  flex-direction: column;
+}
+.images > img {
+  position: relative;
+  z-index: -1;
+  width: 25vh;
+}
+.images > span {
+  font-weight: 600;
+}
+.images > p {
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.seeProject {
+  color: rgb(164, 214, 47);
+  font-size: small;
+}
+.forthContainer-row {
+  display: flex;
+ 
+  position: relative;
+  bottom: 20vh;
+  padding: 5px;
+  margin-left: 2%;
+}
+.detailsForth-col {
+  display: flex;
+  flex-direction: column;
+}
+.forthContainer-headFirst-row {
+  display: flex;
+
+  margin: 2vh;
+}
+#first-head {
+  margin: 7vh;
+  width: 40vh;
+  height: auto;
+
+  font-size: medium;
+  font-weight: 600;
+}
+.detailsFive {
+  padding: 13vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 9vh;
+  color: white;
+  width: 24vh;
+  height:30vh;
+  background-color: rgb(164, 214, 47);
+}
+
+.fifthContainer {
+  display: flex;
+  
+  position: relative;
+  bottom: 10vh;
+}
+.detailsSix {
+  padding: 6vh;
+  margin-top: 7vh;
+}
+.detailsSix > span {
+  font-size: 10vh;
+  color: rgb(164, 214, 47);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.detailsSeventh {
+  position: relative;
+  
+  display: flex;
+}
+.fifth-container-img1 {
+  margin-top: 5.5%;
+  position: relative;
+  left: 5%;
+}
+.sixContainer {
+  display: flex;
+  
+}
+.detailsEight {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  height: 20vh;
+  padding: 10vh;
+  background-color: rgb(164, 214, 47);
+}
+.contact-img {
+  display: flex;
+}
+
+.contact-img > img {
+  margin: 5px;
+  width: 8vh;
+  height: 5vh;
+}
+.detailsEight > span:first-child {
+  font-size: 7vh;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+#email {
+  text-decoration: underline;
+  color: white;
+}
+.deatilsNine {
+  margin-top: 30vh;
+  font-family: Arial, Helvetica, sans-serif;
+ margin-left: 45%;
+  font-weight: 700;
+}
